@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'http://localhost:5000';
+const url = 'https://todoapp-api-firstbranch.onrender.com';
 export const read_todo = async () => {
   const { data } = await axios.get(url);
   return data;
